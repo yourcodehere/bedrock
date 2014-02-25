@@ -12,7 +12,7 @@ set :repo_url, 'git@github.com:yourcodehere/bedrock.git'
 
 # Hardcodes branch to always be master
 # This could be overridden in a stage config file
-# set :branch, :master
+set :branch, 'ych-subdir'
 
 set :deploy_to, "/home/doug/public/yourcodehere.com/deploy/#{fetch(:application)}"
 
